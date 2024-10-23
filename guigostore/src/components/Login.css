@@ -1,0 +1,57 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura total da tela */
+  background-color: #f0f4f8; /* Cor de fundo */
+}
+
+.login-form {
+  background-color: white;
+  padding: 30px; /* Aumentando o padding para mais espaço interno */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+  width: 400px; /* Largura fixa para o formulário */
+}
+
+.login-form h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px; /* Adicionando espaço abaixo do título */
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s; /* Efeito de transição na borda */
+}
+
+.login-form input:focus {
+  border-color: #007bff; /* Mudando a cor da borda ao focar */
+  outline: none; /* Remover contorno padrão */
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Cor do botão */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #0056b3; /* Cor ao passar o mouse */
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}

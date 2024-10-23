@@ -1,0 +1,84 @@
+/* Navbar.css */
+.navbar {
+    background-color: #232f3e; /* Cor de fundo da navbar */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .navbar-categories {
+    margin-right: 20px;
+  }
+  
+  .categories-button {
+    background-color: #37475a; /* Cor de fundo do botão de categorias */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .categories-button:hover {
+    background-color: #475a71; /* Cor ao passar o mouse */
+  }
+  
+  .navbar-search {
+    flex: 1; /* Para ocupar espaço restante */
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .navbar-search input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    background-color: #f0c14b; /* Cor do botão de pesquisa */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #e2b20b; /* Cor ao passar o mouse */
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #f0c14b; /* Cor ao passar o mouse */
+  }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+  
